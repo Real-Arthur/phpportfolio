@@ -22,10 +22,11 @@
 </div>
 
 <div class="right-side">
-<button class="tablink" onclick="openPage('Projects', this, 'red')"id="defaultOpen">Projects</button>
-<button class="tablink" onclick="openPage('Resume', this, 'green')" >Resume</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-
+  <div class="tablink-container">
+    <button class="tablink" onclick="openPage('Projects', this, 'red')"id="defaultOpen">Projects</button>
+    <button class="tablink" onclick="openPage('Resume', this, 'green')" >Resume</button>
+    <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+  </div>
 <div id="About" class="tabcontent">
   <div class="interest-picture-container">
     <?php

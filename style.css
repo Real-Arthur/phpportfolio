@@ -12,7 +12,6 @@ body, html {
 }
 .right-side {
   width: 80%;
-  padding: 0 10px 0 0;
   float: right;
 }
 
@@ -32,17 +31,21 @@ body, html {
    
 }
 
+.tablink-container {
+  position: absolute;
+  right: 0;
+}
+
 /* Style tab links */
 .tablink {
   background-color: #555;
   color: white;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: .25em .25em;
   font-size: 17px;
-  width: 100%;
+  width: fit-content;
 }
 
 .tablink:hover {
@@ -55,8 +58,9 @@ body, html {
   display: none;
   text-align: center;
   padding: 2em;
-  /* padding: 100px 20px; */
-  /* height: 100%; */
+  padding: 100px 20px;
+  height: 100vh;
+  overflow: auto;
 }
 
 #Projects {background-color: red;}
