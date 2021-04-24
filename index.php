@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>Arthur Carson Portfolio</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="lib/ImageScroll.js"></script>
 </head>
 <body>
   <header class="headerContainer">
@@ -40,8 +39,9 @@
 </div>
 
 <div id="Resume" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+    <?php
+      include('./resume.php')
+    ?>
 </div>
 
 
@@ -63,7 +63,7 @@ function openPage(pageName,elmnt,color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
-
+<!-- carousel control -->
 <script>
 var myIndex = 0;
 carousel();
