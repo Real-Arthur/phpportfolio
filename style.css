@@ -62,7 +62,7 @@ body, html {
 #Projects {background-color: red;}
 #Resume {background-color: green;}
 #About {background-color: orange;}
-
+ /* header elements */
 .headerContainer {
   display: flex;
   flex-direction: column;
@@ -77,11 +77,23 @@ body, html {
 
 .headerBox {
   order: 2;
+  position: relative;
+  animation-name: fly;
+  animation-duration: 4s;
 }
 
 .headerName {
   font-size: x-large;
 }
+
+@keyframes fly {
+  0%   {background-color:red; left:0px; top:-700px;}
+  50%  {background-color:blue; left:0px; top:200px;}
+  75%  {background-color:green; left:0px; top:100px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* header elements end */
 
 .interest-picture-container {
   text-align: -webkit-center;
