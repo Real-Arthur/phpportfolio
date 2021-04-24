@@ -1,7 +1,6 @@
 <?php
   echo "
   <div>
-  <h2>Resume</h2>
   <button target='_blank' rel='noreferrer' href={resume}>
     <h4>View Resume PDF</h4>
   </button>

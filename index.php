@@ -10,16 +10,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+  <div class="left-side">
   <header class="headerContainer">
     <img class="headerContent headerImage" src="./media/ArthurCarson.jpg" alt="Arthur Carson">
-      <div class="headerBox">
+    <div class="headerBox">
         <h1 class="headerContent headerName">Arthur Carson</h1>
         <h3 class="headerContent1">Full Stack </h3>
         <h3 class="headerContent2">Software Developer</h3>
       </div>
   </header>
+</div>
 
-
+<div class="right-side">
 <button class="tablink" onclick="openPage('Projects', this, 'red')"id="defaultOpen">Projects</button>
 <button class="tablink" onclick="openPage('Resume', this, 'green')" >Resume</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
@@ -43,7 +45,7 @@
       include('./resume.php')
     ?>
 </div>
-
+</div>
 
 <script>
 function openPage(pageName,elmnt,color) {

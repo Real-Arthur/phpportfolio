@@ -1,11 +1,14 @@
 <?php
+  $gitcat = '../media/resume/gitcat.jpg';
   /// playworks project
   $playworks_media = '../media/projects/Playworks.mp4';
   $playworks_content = "
     <div class='project-content'>
-    <button href=https://github.com/Real-Arthur/playworks>
-    <h4>PlayWorks Step Challenge App</h4>
+    <a href='https://github.com/Real-Arthur/playworks' target='_blank'>
+    <button class='project-button'>
+    <h4>PlayWorks Step Challenge App<img class='icons' src=$gitcat/></h4>
     </button>
+    </a>
     <h5>Problem: How will the PlayWorks organization organize step challenge fundraisers simply and efficiently?</h5>
     <h5>Solution: Automate daily leader boards, streamline photo approval, and simplify the creation of contests and daily challenges</h5>
     <h5>Duration: Three Weeks</h5>
@@ -21,9 +24,11 @@
   $castwatch_media = '../media/projects/CastWatch.mp4';
   $castwatch_content = "
     <div class='project-content'>
-    <button href=https://github.com/Real-Arthur/solo-project>
-    <h4>Cast Watch</h4>
+    <a href='https://github.com/Real-Arthur/solo-project' target='_blank'>
+    <button class='project-button'>
+    <h4>Cast Watch<img class='icons' src=$gitcat/></h4>
     </button>
+    </a>
     <h5>Problem: Where have I seen that actor/actress before?</h5>
     <h5>Solution: Compare a movie's cast list to cast list of movies the user has seen</h5>
     <h5>Duration: Two Weeks</h5>
@@ -39,9 +44,11 @@
   $anygood_media = '../media/projects/anygood.mp4';
   $anygood_content = "
     <div class='project-content'>
-      <Button href=https://github.com/Real-Arthur/any-good-backend>
-      <h4>Any Good?</h4>
-      </Button>
+      <a href='https://github.com/Real-Arthur/any-good-backend' target='_blank'>
+      <button class='project-button'>
+      <h4>Any Good?<img class='icons' src=$gitcat/></h4>
+      </button>
+      </a>
       <h5>Problem: Is that actor/actress any good?</h5>
       <h5>Solution: Average the user scores of everything the person has been involved in.</h5>
       <h5>Make judgments based on the average scores.</h5>
@@ -58,9 +65,11 @@
   $moviesagas_media = '../media/projects/MovieSagas.jpg';
   $moviesagas_content = "
   <div class='project-content'>
-    <Button href='https://github.com/Real-Arthur/movie-sagas'>
-    <h4>Movie Gallery<img className='icons' src={gitcat}/></h4>
-    </Button>
+    <a href='https://github.com/Real-Arthur/movie-sagas' target='_blank'>
+    <button class='project-button'>
+    <h4>Movie Gallery<img class='icons' src=$gitcat/></h4>
+    </button>
+    </a>
     <h6>A movie library that displays a movie poster, title, description, </h6>
     <h6>and a list of genres for movies in a database.</h6> 
     <h6>Allows users to edit and add movies.</h6>
