@@ -7,8 +7,11 @@ body, html {
 
 .left-side {
   width: 20%;
+  height: 100vh;
   padding: 0 10px 0 0;
   float: left;
+  background-color: #3D405B;
+  color: #F4F1DE;
 }
 .right-side {
   width: 80%;
@@ -38,8 +41,8 @@ body, html {
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
-  color: white;
+  background-color: #3D405B;
+  color: 3D405B;
   border: none;
   outline: none;
   cursor: pointer;
@@ -49,12 +52,12 @@ body, html {
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: #3D405B;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: #3D405B;
   display: none;
   text-align: center;
   padding: 2em;
@@ -63,9 +66,9 @@ body, html {
   overflow: auto;
 }
 
-#Projects {background-color: red;}
-#Resume {background-color: green;}
-#About {background-color: orange;}
+#Projects {background-color: #F4F1DE;}
+#Resume {background-color: #F2CC8F;}
+#About {background-color: #E07A5F;}
  /* header elements */
 .headerContainer {
   display: flex;
@@ -91,10 +94,10 @@ body, html {
 }
 
 @keyframes fly {
-  0%   {background-color:red; left:0px; top:-700px;}
-  50%  {background-color:blue; left:0px; top:200px;}
-  75%  {background-color:green; left:0px; top:100px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {background-color:#3D405B; left:0px; top:-700px; transform: rotate(45deg);}
+  50%  {background-color:#81B29A; left:0px; top:200px; transform: rotate(90deg);}
+  75%  {background-color:#E07A5F; left:0px; top:100px; transform: rotate(180deg);}
+  100% {background-color:#3D405B; left:0px; top:0px; transform: rotate(0deg);}
 }
 
 /* header elements end */
@@ -109,7 +112,7 @@ body, html {
 }
 
 .project-button{
-  background-color: #28a4c9;
+  background-color: #3D405B;
   border-radius: .5em;
   box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.2), inset 0 2px 0 hsla(0,0%,100%,.1), inset 0 -0.2em 0 hsla(0,0%,100%,.1), inset 0 -0.25em 0 hsla(0,0%,0%,.25), 0 0.25em 0.25em hsla(0,0%,0%,.05);
   color: #fff;
