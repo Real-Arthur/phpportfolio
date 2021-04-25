@@ -98,10 +98,11 @@ body, html {
 }
 
 @keyframes fly {
-  0%   {background-color:#3D405B; left:0px; top:-700px; transform: rotate(45deg);}
-  50%  {background-color:#81B29A; left:0px; top:200px; transform: rotate(90deg);}
-  75%  {background-color:#E07A5F; left:0px; top:100px; transform: rotate(180deg);}
-  100% {background-color:#3D405B; left:0px; top:0px; transform: rotate(0deg);}
+  0%   {color:#E07A5F; left:0px; top:-700px; transform: rotate(45deg);}
+  25%  {color:#81B29A; transform: rotate(90deg);}
+  50%  {color:#81B29A; left:0px; top:200px; transform: rotate(180deg);}
+  75%  {color:#E07A5F; left:0px; top:100px; transform: rotate(90deg);}
+  100% {color:#E07A5F; left:0px; top:0px; transform: rotate(0deg);}
 }
 
 /* header elements end */
@@ -139,4 +140,9 @@ body, html {
 
 .icons {
   height: 2em;
+}
+
+.emphasis {
+  font-weight:900 !important;
+  font-size: larger;
 }

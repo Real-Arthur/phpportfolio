@@ -12,8 +12,8 @@
     <h5>Problem: How will the PlayWorks organization organize step challenge fundraisers simply and efficiently?</h5>
     <h5>Solution: Automate daily leader boards, streamline photo approval, and simplify the creation of contests and daily challenges</h5>
     <h5>Duration: Three Weeks</h5>
-    <h5>Technologies Used: AWS S3, Heroku, Passport, PostgresQL, Redux.js, Axios,</h5>
-    <h5>React, Node.js, Material UI, Jquery, Javascript, CSS, HTML</h5>
+    <h5 class='emphasis'>Technologies Used: AWS S3, Heroku, Passport, PostgresQL, Redux.js, Axios,</h5>
+    <h5 class='emphasis'>React, Node.js, Material UI, Jquery, Javascript, CSS, HTML</h5>
     <video class='sagasimg' controls>
       <source src=$playworks_media type='video/mp4' />
     </video>  
@@ -32,8 +32,8 @@
     <h5>Problem: Where have I seen that actor/actress before?</h5>
     <h5>Solution: Compare a movie's cast list to cast list of movies the user has seen</h5>
     <h5>Duration: Two Weeks</h5>
-    <h5>Technologies Used: PostgresQL, Third-party APIs, Redux.js, Axios,</h5>
-    <h5> React, Node.js, Material UI, Jquery, Javascript, CSS, HTML</h5>
+    <h5 class='emphasis'>Technologies Used: PostgresQL, Third-party APIs, Redux.js, Axios,</h5>
+    <h5 class='emphasis'> React, Node.js, Material UI, Jquery, Javascript, CSS, HTML</h5>
     <video class='sagasimg' controls>
       <source src=$castwatch_media type='video/mp4'/>
     </video>
@@ -53,8 +53,8 @@
       <h5>Solution: Average the user scores of everything the person has been involved in.</h5>
       <h5>Make judgments based on the average scores.</h5>
       <h5>Duration: One Week</h5>
-      <h5>Technologies Used: Python, Flask, Third-party API, Heroku,</h5>
-      <h5>React, Material UI, Javascript, CSS, HTML</h5>
+      <h5 class='emphasis'>Technologies Used: Python, Flask, Third-party API, Heroku,</h5>
+      <h5 class='emphasis'>React, Material UI, Javascript, CSS, HTML</h5>
       <video class='sagasimg' controls>
         <source src=$anygood_media type='video/mp4' />
       </video> 
@@ -74,7 +74,7 @@
     <h6>and a list of genres for movies in a database.</h6> 
     <h6>Allows users to edit and add movies.</h6>
     <h6>Duration: Weekend Project</h6>
-    <h6>Technologies: Javascript, React, Redux, Express, Node.js, Material-UI, PostgreSQL</h6>
+    <h6 class='emphasis'>Technologies: Javascript, React, Redux, Express, Node.js, Material-UI, PostgreSQL</h6>
     <img class='sagasimg' src=$moviesagas_media />
   </div>
   ";
