@@ -1,5 +1,5 @@
 <?php
-  $gitcat = '../media/resume/gitcat.jpg';
+  $gitcat = '/media/resume/gitcat.jpg';
   /// playworks project
   $playworks_media = '../media/projects/Playworks.mp4';
   $playworks_content = "
