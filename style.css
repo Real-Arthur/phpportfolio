@@ -90,11 +90,18 @@ body, html {
   order: 2;
   position: relative;
   animation-name: fly;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 
 .headerName {
   font-size: x-large;
+}
+
+.headerLinks {
+  order: 3;
+  position: relative;
+  animation-name: crawl;
+  animation-duration: 3s;
 }
 
 @keyframes fly {
@@ -103,6 +110,14 @@ body, html {
   50%  {color:#81B29A; left:0px; top:200px; transform: rotate(180deg);}
   75%  {color:#E07A5F; left:0px; top:100px; transform: rotate(90deg);}
   100% {color:#E07A5F; left:0px; top:0px; transform: rotate(0deg);}
+}
+
+@keyframes crawl {
+  0%   {left:-150px; bottom: 0px; transform: rotate(60deg);}
+  25%  {left:0px; bottom: 100px; transform: rotate(45deg);}
+  50%  {left:0px; bottom: 200px; transform: rotate(30deg);}
+  75%  {left:0px; bottom: 100px; transform: rotate(15deg);}
+  100% {left:0px; bottom: 0px;}
 }
 
 /* header elements end */

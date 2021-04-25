@@ -18,10 +18,14 @@
   <header class="headerContainer">
     <img class="headerContent headerImage" src="./media/ArthurCarson.jpg" alt="Arthur Carson">
     <div class="headerBox">
-        <h1 class="headerContent headerName">Arthur Carson</h1>
-        <h3 class="headerContent1">Full Stack </h3>
-        <h3 class="headerContent2">Software Developer</h3>
-      </div>
+      <h1 class="headerContent headerName">Arthur Carson</h1>
+      <h3 class="headerContent1">Full Stack </h3>
+      <h3 class="headerContent2">Software Developer</h3>
+    </div>
+    <div class="headerLinks">
+      <a href="https://www.linkedin.com/in/arthurcarson/" target="_blank"><p>To LinkedIn</p></a>
+      <a href="https://github.com/Real-Arthur" target="_blank"><p>To Github</p></a>
+    </div>
   </header>
 </div>
 
