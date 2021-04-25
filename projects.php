@@ -1,12 +1,11 @@
 <?php
-  $gitcat = '/app/media/resume/gitcat.jpg';
   /// playworks project
   $playworks_media = '../media/projects/Playworks.mp4';
   $playworks_content = "
     <div class='project-content'>
     <a href='https://github.com/Real-Arthur/playworks' target='_blank'>
-    <button class='project-button'>
-    <h4>PlayWorks Step Challenge App<img class='icons' src=$gitcat/></h4>
+    <button class='project-button slide_right'>
+    <h4>PlayWorks Step Challenge App</h4>
     </button>
     </a>
     <h5>Problem: How will the PlayWorks organization organize step challenge fundraisers simply and efficiently?</h5>
@@ -25,8 +24,8 @@
   $castwatch_content = "
     <div class='project-content'>
     <a href='https://github.com/Real-Arthur/solo-project' target='_blank'>
-    <button class='project-button'>
-    <h4>Cast Watch<img class='icons' src=$gitcat/></h4>
+    <button class='project-button slide_right'>
+    <h4>Cast Watch</h4>
     </button>
     </a>
     <h5>Problem: Where have I seen that actor/actress before?</h5>
@@ -45,8 +44,8 @@
   $anygood_content = "
     <div class='project-content'>
       <a href='https://github.com/Real-Arthur/any-good-backend' target='_blank'>
-      <button class='project-button'>
-      <h4>Any Good?<img class='icons' src=$gitcat/></h4>
+      <button class='project-button slide_right'>
+      <h4>Any Good?</h4>
       </button>
       </a>
       <h5>Problem: Is that actor/actress any good?</h5>
@@ -66,8 +65,8 @@
   $moviesagas_content = "
   <div class='project-content'>
     <a href='https://github.com/Real-Arthur/movie-sagas' target='_blank'>
-    <button class='project-button'>
-    <h4>Movie Gallery<img class='icons' src=$gitcat/></h4>
+    <button class='project-button slide_right'>
+    <h4>Movie Gallery</h4>
     </button>
     </a>
     <h6>A movie library that displays a movie poster, title, description, </h6>
