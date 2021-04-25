@@ -2,7 +2,7 @@
   $resume = '/ArthurCarsonResume.pdf';
   echo "
   <div>
-  <button>
+  <button class='project-button slide_right'>
     <a target='_blank' rel='noreferrer' href=$resume>
       <h4>View Resume PDF</h4>
     </a>
