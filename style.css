@@ -145,3 +145,7 @@ body, html {
   font-weight:900 !important;
   font-size: larger;
 }
+
+a {
+  text-decoration: none !important;
+}
