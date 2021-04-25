@@ -104,6 +104,16 @@ body, html {
   animation-duration: 3s;
 }
 
+.headerLinks p {
+  border-style: outset;
+  padding-left: 0.2em;
+}
+
+.headerLinks p:hover {
+  border-style: inset;
+  padding-left: 0.2em;
+}
+
 @keyframes fly {
   0%   {color:#E07A5F; left:0px; top:-700px; transform: rotate(45deg);}
   25%  {color:#81B29A; transform: rotate(90deg);}
@@ -113,11 +123,11 @@ body, html {
 }
 
 @keyframes crawl {
-  0%   {left:-150px; bottom: 0px; transform: rotate(60deg);}
-  25%  {left:0px; bottom: 100px; transform: rotate(45deg);}
-  50%  {left:0px; bottom: 200px; transform: rotate(30deg);}
-  75%  {left:0px; bottom: 100px; transform: rotate(15deg);}
-  100% {left:0px; bottom: 0px;}
+  0%   {left:-150px; bottom: 0px; transform: rotate(60deg); border-style: none;}
+  25%  {left:0px; bottom: 100px; transform: rotate(45deg); border-style: none;}
+  50%  {left:0px; bottom: 200px; transform: rotate(30deg); border-style: none;}
+  75%  {left:0px; bottom: 100px; transform: rotate(15deg); border-style: none;}
+  100% {left:0px; bottom: 0px; border-style: none;}
 }
 
 /* header elements end */
