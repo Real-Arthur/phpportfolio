@@ -1,5 +1,5 @@
 <?php
-  $resume = '../media/resume/ArthurCarsonResume.pdf';
+  $resume = '/ArthurCarsonResume.pdf';
   echo "
   <div>
   <button>
