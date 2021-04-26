@@ -31,9 +31,9 @@
 
 <div class="right-side">
   <div class="tablink-container">
-    <button class="tablink" onclick="openPage('Projects', this, '#F4F1DE')"id="defaultOpen">Projects</button>
-    <button class="tablink" onclick="openPage('Resume', this, '#F2CC8F')" >Resume</button>
-    <button class="tablink" onclick="openPage('About', this, '#E07A5F')">About</button>
+    <button class="tablink projects" onclick="openPage('Projects', this, '#F4F1DE')"id="defaultOpen">Projects</button>
+    <button class="tablink resume" onclick="openPage('Resume', this, '#F2CC8F')" >Resume</button>
+    <button class="tablink about" onclick="openPage('About', this, '#E07A5F')">About</button>
   </div>
 <div id="About" class="tabcontent">
   <div class="interest-picture-container">

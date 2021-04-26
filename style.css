@@ -45,19 +45,22 @@ body, html {
 
 /* Style tab links */
 .tablink {
-  background-color: #3D405B;
-  color: 3D405B;
+  /* background-color: #3D405B; */
+  color: #3D405B;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: .1em .1em;
+  padding: .2em .2em;
   font-size: x-large;
   width: fit-content;
+  margin-right: 0.2em;
+  margin-top: 0.1em;
 }
 
-.tablink:hover {
-  background-color: #3D405B;
-}
+.tablink.projects {background-color: #F4F1DE;}
+.tablink.resume {background-color: #F2CC8F;}
+.tablink.about {background-color: #E07A5F;}
+
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
