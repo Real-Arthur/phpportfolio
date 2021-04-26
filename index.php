@@ -23,8 +23,8 @@
       <h3 class="headerContent2">Software Developer</h3>
     </div>
     <div class="headerLinks">
-      <a href="https://www.linkedin.com/in/arthurcarson/" target="_blank"><p>To LinkedIn</p></a>
-      <a href="https://github.com/Real-Arthur" target="_blank"><p>To Github</p></a>
+      <a href="https://www.linkedin.com/in/arthurcarson/" target="_blank"><p class="bioButton">To LinkedIn</p></a>
+      <a href="https://github.com/Real-Arthur" target="_blank"><p class="bioButton">To Github</p></a>
     </div>
   </header>
 </div>
